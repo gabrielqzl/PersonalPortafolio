@@ -1,0 +1,22 @@
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Colors */
+    --primary: #cc0000;
+    --secondary: #ffac25;
+    --graydark:  #282828;
+    --graymediu: #464646;
+    --black: #000;
+    --white: #fff;
+}
+/* El navbar debe estar en la parte superior */
+
+@media (max-width: 700px){
+    body {
+        background: lightgray;
+    }
+}
