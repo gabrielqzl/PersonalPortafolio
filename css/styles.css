@@ -81,6 +81,46 @@ body {
     color: var(--secondary);
 }
 
+/* Projects */
+.projects-section {
+    background: var(--secondary);
+    padding: 10em 2em;
+    text-align: center;
+}
+
+.projects-header {
+    font-family: 'Montserrat';
+    font-size: 2em;
+    max-width: 600px;
+    margin: 0 auto 4em auto;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    max-width: 1280px;
+    grid-gap: 1em;
+    margin: 0 auto;
+}
+
+.project-tile {
+    /* background: blue; */
+    padding:.5em;
+    border: 1px solid white;
+}
+
+.project-image {
+    display: block;
+    width: 100%;
+    height: calc(80% );
+    object-fit: cover;
+}
+
+.title {
+    padding: 1em;
+    background: white;
+}
+
 @media (max-width: 500px) {
     body {
         background: lightgray;
@@ -93,6 +133,7 @@ body {
     .welcome-section h1 {
         font-size: 2em;
     }
+
     .welcome-section p {
         font-size: 1em;
     }
